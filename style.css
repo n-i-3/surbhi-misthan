@@ -338,3 +338,18 @@ footer .credit {
     margin-right: 4px;
   }
 }
+
+@media (max-width: 480px) {
+  .order-btn,
+  .floating-order-btn,
+  .whatsapp-btn {
+    padding: 10px 16px;
+    font-size: 0.95rem;
+  }
+
+  .order-btn img.platform-logo,
+  .floating-order-btn img {
+    width: 22px;
+    height: 22px;
+  }
+}
