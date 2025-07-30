@@ -282,7 +282,7 @@ footer .credit {
   font-size: 1.5rem;
   color: #d35400;
   font-weight: bold;
-  margin-bottom: 24px;
+  margin-bottom: 1px;
   letter-spacing: 1px;
   font-family: 'Noto Sans Devanagari', 'Mukta', Arial, sans-serif;
   background: #fffbe9;
@@ -351,5 +351,95 @@ footer .credit {
   .floating-order-btn img {
     width: 22px;
     height: 22px;
+  }
+}
+
+.whatsapp-offer {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.whatsapp-card {
+  background: #f1fff5;
+  border: 2px solid #b2f5c4;
+  padding: 28px 22px;
+  border-radius: 16px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  text-align: center;
+}
+
+.whatsapp-card h2 {
+  font-size: 1.8rem;
+  color: #128c7e;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.whatsapp-card .highlight {
+  color: #1ebea5;
+  font-weight: bold;
+}
+
+.whatsapp-order-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  background-color: #25d366;
+  color: white;
+  font-weight: bold;
+  font-size: 1.05rem;
+  text-decoration: none;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  margin: 16px 0;
+}
+
+.whatsapp-order-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(37, 211, 102, 0.3);
+}
+
+.whatsapp-logo {
+  height: 24px;
+  width: 24px;
+}
+
+.delivery-info {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.delivery-info strong {
+  color: #2e7d32;
+}
+
+@media (max-width: 600px) {
+  .whatsapp-card {
+    padding: 20px 14px;
+    border-radius: 12px;
+  }
+
+  .whatsapp-card h2 {
+    font-size: 1.4rem;
+  }
+
+  .whatsapp-order-btn {
+    font-size: 0.95rem;
+    padding: 10px 16px;
+  }
+
+  .whatsapp-logo {
+    height: 22px;
+    width: 22px;
+  }
+
+  .delivery-info {
+    font-size: 0.95rem;
   }
 }
