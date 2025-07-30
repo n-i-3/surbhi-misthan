@@ -97,8 +97,8 @@ header p {
 .menu-card {
   background: linear-gradient(120deg, #fffbe9 80%, #ffe0b2 100%);
   padding: 28px 18px;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 28px;
+  padding-right: 28px;
   border-radius: 16px;
   text-align: center;
   text-decoration: none;
@@ -466,11 +466,6 @@ footer .credit {
     
   }
 
-
-  .menu-card {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
 }
 
 
