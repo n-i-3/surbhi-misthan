@@ -97,6 +97,8 @@ header p {
 .menu-card {
   background: linear-gradient(120deg, #fffbe9 80%, #ffe0b2 100%);
   padding: 28px 18px;
+  padding-left: 35px;
+  padding-right: 35px;
   border-radius: 16px;
   text-align: center;
   text-decoration: none;
@@ -282,7 +284,7 @@ footer .credit {
   font-size: 1.5rem;
   color: #d35400;
   font-weight: bold;
-  margin-bottom: 1px;
+  margin-bottom: 0px;
   letter-spacing: 1px;
   font-family: 'Noto Sans Devanagari', 'Mukta', Arial, sans-serif;
   background: #fffbe9;
@@ -312,6 +314,8 @@ footer .credit {
   .review-card {
     margin-left: 2px;
     margin-right: 2px;
+    margin-bottom: 20px;
+
   }
 }
 
@@ -358,6 +362,7 @@ footer .credit {
   padding: 40px 20px;
   display: flex;
   justify-content: center;
+  margin-top: -5px;
 }
 
 .whatsapp-card {
@@ -443,3 +448,29 @@ footer .credit {
     font-size: 0.95rem;
   }
 }
+
+.menu-list {
+  list-style-type: disc;
+  text-align: left;
+  padding-left: 18px;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #5d4037;
+  max-height: 400px;
+  overflow-y: auto;
+}
+@media (max-width: 600px) {
+  .menu-list {
+    font-size: 0.92rem;
+    padding-left: 14px;
+    
+  }
+
+
+  .menu-card {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
